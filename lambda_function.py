@@ -4,7 +4,7 @@ import botocore
 import logging
 logging.getLogger().setLevel(logging.INFO)
 s3 = boto3.resource('s3')
-BUCKET_NAME="dev-days-tset"
+BUCKET_NAME="dev-days-test"
 KEY="hello.txt"
 
 def wish_hello_world_handler(event, context):
